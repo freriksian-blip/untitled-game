@@ -1,11 +1,22 @@
 ﻿{
-  "MapHierarchies": [],
+  "MapHierarchies": [
+    {
+      "BattleFocalPoints": [],
+      "ID": 0,
+      "IsExpanded": 0,
+      "Name": "Grassfields",
+      "Children": [],
+      "Metadata": null
+    }
+  ],
   "StatisticsFormulas": {},
   "Version": "1.0.0.1",
   "Description": null,
   "Name": null,
-  "Path": "Z:\\RPG_Projects\\Untitled",
+  "Path": "Z:\\RPG_Projects\\Untitled\\untitled-game",
   "Settings": {
-    "MapEditorZoom": "1"
+    "MapEditorZoom": "3.599999",
+    "TileFilterMode": "Flat",
+    "LastOpenedMap": "0"
   }
 }

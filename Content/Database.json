@@ -1110,7 +1110,38 @@
     "Metadata": null
   },
   "FontFamilies": {
-    "Items": [],
+    "Items": [
+      {
+        "Bold": null,
+        "BoldItalic": null,
+        "IsPixelFont": 0,
+        "Italic": null,
+        "Name": "norm",
+        "Normal": "Fonts\\Saint Edwards Games\\Quirkerton.otf",
+        "PixelFontAlphaClamping": 0.35,
+        "Metadata": null
+      },
+      {
+        "Bold": null,
+        "BoldItalic": null,
+        "IsPixelFont": 0,
+        "Italic": null,
+        "Name": null,
+        "Normal": null,
+        "PixelFontAlphaClamping": 0.35,
+        "Metadata": null
+      },
+      {
+        "Bold": null,
+        "BoldItalic": null,
+        "IsPixelFont": 0,
+        "Italic": null,
+        "Name": null,
+        "Normal": null,
+        "PixelFontAlphaClamping": 0.35,
+        "Metadata": null
+      }
+    ],
     "Metadata": null
   },
   "Functions": {
@@ -2125,7 +2156,7 @@
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "debug",
         "Value": 0,
         "Metadata": null
       },
@@ -3127,22 +3158,22 @@
         "Metadata": null
       },
       {
-        "Name": "",
+        "Name": "player x",
         "Value": "",
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "player y",
         "Value": "",
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "player z",
         "Value": "",
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "pl;ayer id",
         "Value": "",
         "Metadata": null
       },
@@ -4127,7 +4158,7 @@
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "debugid",
         "Value": "",
         "Metadata": null
       },
@@ -5145,7 +5176,199 @@
     "Metadata": null
   },
   "UserInterfaces": {
-    "Items": [],
+    "Items": [
+      {
+        "Elements": [
+          {
+            "$": "TextUserInterfaceElement",
+            "CharacterDelay": "00:00:00",
+            "CharacterSound": {
+              "IsPreventingMultiple": 0,
+              "Name": null,
+              "Pan": 0,
+              "Pitch": 0,
+              "Volume": 1
+            },
+            "Font": {
+              "Color": "1,1,1,1",
+              "DropShadowOffset": "1,1",
+              "DropShadowColor": "0,0,0,0",
+              "Family": 0,
+              "HorizontalAlignment": 0,
+              "IsBold": 0,
+              "IsItalic": 0,
+              "IsStrikethrough": 0,
+              "IsUnderlined": 0,
+              "Name": null,
+              "Size": 76,
+              "UseDropShadow": 0,
+              "VerticalAlignment": 2,
+              "Metadata": null
+            },
+            "HorizontalAlignment": 0,
+            "Template": null,
+            "Text": "player coords X \u003Cglobalvar[1]\u003E Y\u003Cglobalvar[2]\u003E Z\u003Cglobalvar[3]\u003E",
+            "UseTemplateText": 0,
+            "WordWrap": 0,
+            "VerticalAlignment": 0,
+            "DisabledEffects": [],
+            "FocusedEffects": [],
+            "ID": "87c8c5f6-e783-405c-9d7a-d2ba58a0cda0",
+            "IsLinkedToSelectionContext": 0,
+            "IsLinkedToUserInterfaceContext": 0,
+            "IsRelativelyPositioned": 1,
+            "IsVisible": 1,
+            "Margin": {
+              "Bottom": 0,
+              "Left": 0,
+              "Right": 0,
+              "Top": 0,
+              "Metadata": null
+            },
+            "Name": "",
+            "PixelHeight": 0,
+            "PixelWidth": 0,
+            "PixelX": 0,
+            "PixelY": 0,
+            "RelativeHeight": 0.19,
+            "RelativeWidth": 1,
+            "RelativeX": 0,
+            "RelativeY": 0.05,
+            "SelectedEffects": [],
+            "TemplateType": null,
+            "UnfocusedEffects": [],
+            "Metadata": null
+          },
+          {
+            "$": "TextUserInterfaceElement",
+            "CharacterDelay": "00:00:00",
+            "CharacterSound": {
+              "IsPreventingMultiple": 0,
+              "Name": null,
+              "Pan": 0,
+              "Pitch": 0,
+              "Volume": 1
+            },
+            "Font": {
+              "Color": "1,1,1,1",
+              "DropShadowOffset": "1,1",
+              "DropShadowColor": "0,0,0,0",
+              "Family": 0,
+              "HorizontalAlignment": 0,
+              "IsBold": 0,
+              "IsItalic": 0,
+              "IsStrikethrough": 0,
+              "IsUnderlined": 0,
+              "Name": null,
+              "Size": 76,
+              "UseDropShadow": 0,
+              "VerticalAlignment": 2,
+              "Metadata": null
+            },
+            "HorizontalAlignment": 0,
+            "Template": null,
+            "Text": "player Id \u003Cglobalvar[4]\u003E",
+            "UseTemplateText": 0,
+            "WordWrap": 0,
+            "VerticalAlignment": 0,
+            "DisabledEffects": [],
+            "FocusedEffects": [],
+            "ID": "4e93d2d8-77d7-4afa-8543-7e8a63d26f98",
+            "IsLinkedToSelectionContext": 0,
+            "IsLinkedToUserInterfaceContext": 0,
+            "IsRelativelyPositioned": 1,
+            "IsVisible": 1,
+            "Margin": {
+              "Bottom": 0,
+              "Left": 0,
+              "Right": 0,
+              "Top": 0,
+              "Metadata": null
+            },
+            "Name": "",
+            "PixelHeight": 0,
+            "PixelWidth": 0,
+            "PixelX": 0,
+            "PixelY": 0,
+            "RelativeHeight": 0.19,
+            "RelativeWidth": 1,
+            "RelativeX": -0,
+            "RelativeY": 0.1,
+            "SelectedEffects": [],
+            "TemplateType": null,
+            "UnfocusedEffects": [],
+            "Metadata": null
+          }
+        ],
+        "EnterTransition": {
+          "$": "InstantUserInterfaceTransition",
+          "BlendMode": 0,
+          "Duration": "00:00:01",
+          "EasingFunction": {
+            "$": "LinearEasingFunction",
+            "Name": "Linear",
+            "Duration": "00:00:01",
+            "IsFinished": 0,
+            "IsReversed": 0,
+            "Metadata": null
+          },
+          "IsAsynchronous": 0,
+          "Metadata": null
+        },
+        "ExitTransition": {
+          "$": "InstantUserInterfaceTransition",
+          "BlendMode": 0,
+          "Duration": "00:00:01",
+          "EasingFunction": {
+            "$": "LinearEasingFunction",
+            "Name": "Linear",
+            "Duration": "00:00:01",
+            "IsFinished": 0,
+            "IsReversed": 0,
+            "Metadata": null
+          },
+          "IsAsynchronous": 0,
+          "Metadata": null
+        },
+        "ID": "947bf984-7169-42f0-b7f6-9c2f12fde0a9",
+        "Locals": {
+          "Switches": [],
+          "Variables": []
+        },
+        "LoadedScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "Name": "debug",
+        "OngoingScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "UnloadedScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "UserInterfaceType": {
+          "$": "OverlayType",
+          "ContextFilterGroups": [],
+          "ContextProvider": null,
+          "Metadata": null
+        },
+        "Metadata": null
+      }
+    ],
     "Metadata": null
   },
   "VirtualKeyMapping": {
@@ -5608,7 +5831,94 @@
         "Cooldown": 0,
         "EnterScript": {
           "Code": null,
-          "Commands": [],
+          "Commands": [
+            {
+              "$": "ConditionalCommand",
+              "Conditions": [
+                {
+                  "$": "GlobalSwitchCondition",
+                  "ComparisonGlobalSwitchIndex": null,
+                  "ComparisonLocalSwitchIndex": null,
+                  "Index": 201,
+                  "Value": 0,
+                  "Metadata": null
+                }
+              ],
+              "FailureCommands": [
+                {
+                  "$": "ConditionalCommand",
+                  "Conditions": [
+                    {
+                      "$": "GlobalSwitchCondition",
+                      "ComparisonGlobalSwitchIndex": null,
+                      "ComparisonLocalSwitchIndex": null,
+                      "Index": 201,
+                      "Value": 1,
+                      "Metadata": null
+                    }
+                  ],
+                  "FailureCommands": [],
+                  "IsTimeConstrained": 1,
+                  "SuccessCommands": [
+                    {
+                      "$": "CloseUserInterfaceCommand",
+                      "ID": {
+                        "IsGlobalVariable": true,
+                        "IsLocalVariable": false,
+                        "IsValue": false,
+                        "Value": "",
+                        "VariableIndex": 201,
+                        "Metadata": null
+                      },
+                      "IsAll": 0,
+                      "Metadata": null
+                    },
+                    {
+                      "$": "SwitchCommand",
+                      "Random": 0,
+                      "Value": 0,
+                      "Index": 201,
+                      "IndexEnd": null,
+                      "IsGlobal": 1,
+                      "IsLocal": 0,
+                      "IsOperandReference": 0,
+                      "IsReference": 0,
+                      "OperandGlobalIndex": null,
+                      "OperandLocalIndex": null,
+                      "Metadata": null
+                    }
+                  ],
+                  "Metadata": null
+                }
+              ],
+              "IsTimeConstrained": 1,
+              "SuccessCommands": [
+                {
+                  "$": "OpenOverlayCommand",
+                  "Index": 201,
+                  "IsLocal": 0,
+                  "OverlayID": "947bf984-7169-42f0-b7f6-9c2f12fde0a9",
+                  "StoreID": 1,
+                  "Metadata": null
+                },
+                {
+                  "$": "SwitchCommand",
+                  "Random": 0,
+                  "Value": 1,
+                  "Index": 201,
+                  "IndexEnd": null,
+                  "IsGlobal": 1,
+                  "IsLocal": 0,
+                  "IsOperandReference": 0,
+                  "IsReference": 0,
+                  "OperandGlobalIndex": null,
+                  "OperandLocalIndex": null,
+                  "Metadata": null
+                }
+              ],
+              "Metadata": null
+            }
+          ],
           "Conditions": [],
           "Interactions": [],
           "IsCodeBased": 0,
@@ -5625,9 +5935,17 @@
         "ID": 1,
         "IgnoresInputBlocks": 0,
         "IsRequiringKeyRelease": 0,
-        "Mapping": [],
+        "Mapping": [
+          {
+            "GlobalVariableIndex": 0,
+            "Key": 192,
+            "SourceType": 0,
+            "StoreAxisChangeInGlobalVariable": 0,
+            "Metadata": null
+          }
+        ],
         "MutuallyExclusiveCommands": [],
-        "Name": null,
+        "Name": "debug",
         "OngoingScript": {
           "Code": null,
           "Commands": [],

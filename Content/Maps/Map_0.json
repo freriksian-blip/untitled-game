@@ -3942,7 +3942,209 @@
     "Metadata": null
   },
   "EnterTransition": null,
-  "Entities": [],
+  "Entities": [
+    {
+      "Category": null,
+      "ID": 0,
+      "IsAllDataPersisted": 0,
+      "IsLocalDataPersisted": 0,
+      "Locals": {
+        "Switches": [],
+        "Variables": []
+      },
+      "Name": null,
+      "Position": "11,0,6",
+      "Scripts": [
+        {
+          "$": "EntityScript",
+          "Annotations": [],
+          "CharacterModel": {
+            "Animation": null,
+            "BackfaceCullingMethod": 0,
+            "HueShift": 0,
+            "IsCycling": 0,
+            "IsModel": 0,
+            "Name": null,
+            "SpriteBorderThickness": 0,
+            "SpriteDuration": 100,
+            "SpriteFrames": 3,
+            "SpriteLayers": {},
+            "SpriteOrientation": 4,
+            "SpriteOrientedAroundCenter": 1,
+            "SpriteRegion": "0,0,0,0",
+            "UseSpriteLayers": 0,
+            "Scale": "1,1,1",
+            "Translation": "0,0,0"
+          },
+          "ColliderDepth": null,
+          "ColliderDiameter": null,
+          "ColliderHeight": null,
+          "ColliderPoints": [],
+          "ColliderShape": null,
+          "CycleAnimation": 0,
+          "Delay": 0,
+          "Direction": 5,
+          "FacePlayerOnInteraction": 1,
+          "FixDirection": 0,
+          "IgnoresCollision": 0,
+          "IgnoresGravity": 0,
+          "IgnoresObstacles": 0,
+          "IsClipping": 0,
+          "IsDirectionUpdated": 1,
+          "IsPushable": 0,
+          "IsRegisteringIgnoredCollisions": 0,
+          "IsWindEligible": 0,
+          "Light": null,
+          "MovementPath": null,
+          "MovementType": 0,
+          "Name": "New Script",
+          "NeverSleeps": 0,
+          "PreventCollision": 0,
+          "PreventFalling": 0,
+          "RecycleAnimation": 1,
+          "Rotation": "0,0,0",
+          "Speed": 1,
+          "SpriteShape": 0,
+          "SuspendMovementOnInteraction": 1,
+          "WindAnchor": "0.5,0",
+          "WindSwayMode": 0,
+          "WindTolerance": 1,
+          "Code": null,
+          "Commands": [
+            {
+              "$": "SaveValueCommand",
+              "IsSwitch": 0,
+              "Source": {
+                "$": "PartyDataSource",
+                "ParameterIndex": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "PartyProperty": 2,
+                "Metadata": null
+              },
+              "Index": 1,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            },
+            {
+              "$": "SaveValueCommand",
+              "IsSwitch": 0,
+              "Source": {
+                "$": "PartyDataSource",
+                "ParameterIndex": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "PartyProperty": 3,
+                "Metadata": null
+              },
+              "Index": 2,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            },
+            {
+              "$": "SaveValueCommand",
+              "IsSwitch": 0,
+              "Source": {
+                "$": "PartyDataSource",
+                "ParameterIndex": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "PartyProperty": 4,
+                "Metadata": null
+              },
+              "Index": 3,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            },
+            {
+              "$": "SaveValueCommand",
+              "IsSwitch": 0,
+              "Source": {
+                "$": "PartyDataSource",
+                "ParameterIndex": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "0",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "PartyProperty": 12,
+                "Metadata": null
+              },
+              "Index": 4,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            },
+            {
+              "$": "WaitCommand",
+              "Duration": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "250",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "IsBlockingInput": 0,
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [
+            {
+              "$": "AutomaticInteraction",
+              "Metadata": null
+            }
+          ],
+          "IsCodeBased": 0,
+          "Metadata": null
+        }
+      ],
+      "Tags": {},
+      "UniqueID": "728b4c0c-ae2b-4535-aac4-df3ea9bc042c",
+      "Metadata": null
+    }
+  ],
   "EntityReferences": [],
   "ExitScript": {
     "Code": null,
@@ -6031,7 +6233,7 @@
     }
   ],
   "MenuID": "00000000-0000-0000-0000-000000000000",
-  "MeshCacheToken": 276759171,
+  "MeshCacheToken": 140688446,
   "Name": "Grassfields",
   "OngoingScript": {
     "Code": null,

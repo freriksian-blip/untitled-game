@@ -13,10 +13,12 @@
   "Version": "1.0.0.1",
   "Description": null,
   "Name": null,
-  "Path": "Z:\\RPG_Projects\\Untitled\\untitled-game",
+  "Path": "F:\\untitled game",
   "Settings": {
     "MapEditorZoom": "3.599999",
     "TileFilterMode": "Flat",
-    "LastOpenedMap": "0"
+    "LastOpenedMap": "0",
+    "TileSelectorZoom": "0.25",
+    "CharacterModelPreset1": "{\r\n  \u0022Border\u0022: 0,\r\n  \u0022Duration\u0022: 100,\r\n  \u0022Frames\u0022: 1,\r\n  \u0022Height\u0022: 16,\r\n  \u0022Orientation\u0022: 4,\r\n  \u0022Width\u0022: 16\r\n}"
   }
 }

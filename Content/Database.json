@@ -1,4 +1,4 @@
-{
+﻿{
   "TileDimension": 16,
   "ActionSequences": {
     "Items": [],
@@ -39,14 +39,14 @@
           "HueShift": 0,
           "IsCycling": 0,
           "IsModel": 0,
-          "Name": null,
+          "Name": "Characters\\early player sprites.png",
           "SpriteBorderThickness": 0,
           "SpriteDuration": 100,
           "SpriteFrames": 3,
           "SpriteLayers": {},
           "SpriteOrientation": 4,
           "SpriteOrientedAroundCenter": 1,
-          "SpriteRegion": "0,0,0,0",
+          "SpriteRegion": "0,0,48,64",
           "UseSpriteLayers": 0,
           "Scale": "1,1,1",
           "Translation": "0,0,0"
@@ -59,9 +59,9 @@
         "ColliderShape": null,
         "EquipmentSlots": [],
         "FallingAnimation": -1,
-        "IdleAnimation": -1,
+        "IdleAnimation": 0,
         "ItemTypes": [],
-        "Name": "",
+        "Name": "player male",
         "PortraitModel": {
           "Animation": null,
           "BackfaceCullingMethod": 0,
@@ -100,12 +100,188 @@
         "VictoryActionSequence": -1,
         "IsSealed": 0,
         "Metadata": null
+      },
+      {
+        "BattlerModel": {
+          "Animation": null,
+          "BackfaceCullingMethod": 0,
+          "HueShift": 0,
+          "IsCycling": 0,
+          "IsModel": 0,
+          "Name": null,
+          "SpriteBorderThickness": 0,
+          "SpriteDuration": 100,
+          "SpriteFrames": 3,
+          "SpriteLayers": {},
+          "SpriteOrientation": 4,
+          "SpriteOrientedAroundCenter": 1,
+          "SpriteRegion": "0,0,0,0",
+          "UseSpriteLayers": 0,
+          "Scale": "1,1,1",
+          "Translation": "0,0,0"
+        },
+        "CharacterModel": {
+          "Animation": null,
+          "BackfaceCullingMethod": 0,
+          "HueShift": 0,
+          "IsCycling": 0,
+          "IsModel": 0,
+          "Name": "Characters\\early player sprites.png",
+          "SpriteBorderThickness": 0,
+          "SpriteDuration": 100,
+          "SpriteFrames": 3,
+          "SpriteLayers": {},
+          "SpriteOrientation": 4,
+          "SpriteOrientedAroundCenter": 1,
+          "SpriteRegion": "0,64,48,64",
+          "UseSpriteLayers": 0,
+          "Scale": "1,1,1",
+          "Translation": "0,0,0"
+        },
+        "Classes": [],
+        "ColliderDepth": null,
+        "ColliderDiameter": null,
+        "ColliderHeight": null,
+        "ColliderPoints": [],
+        "ColliderShape": null,
+        "EquipmentSlots": [],
+        "FallingAnimation": -1,
+        "IdleAnimation": 5,
+        "ItemTypes": [],
+        "Name": "player female",
+        "PortraitModel": {
+          "Animation": null,
+          "BackfaceCullingMethod": 0,
+          "HueShift": 0,
+          "IsCycling": 0,
+          "IsModel": 0,
+          "Name": null,
+          "SpriteBorderThickness": 0,
+          "SpriteDuration": 100,
+          "SpriteFrames": 1,
+          "SpriteLayers": {},
+          "SpriteOrientation": 1,
+          "SpriteOrientedAroundCenter": 1,
+          "SpriteRegion": "0,0,0,0",
+          "UseSpriteLayers": 0,
+          "Scale": "1,1,1",
+          "Translation": "0,0,0"
+        },
+        "SkillTypes": [],
+        "SpriteShape": 0,
+        "StatisticsTable": {
+          "Columns": [],
+          "GrowthIndex": -1,
+          "MaximumRank": -1,
+          "RankIndex": -1,
+          "Rows": [],
+          "StartingRank": 0,
+          "Metadata": null
+        },
+        "Tags": {},
+        "TraitTable": {
+          "RankIndex": -1,
+          "Rows": [],
+          "Metadata": null
+        },
+        "VictoryActionSequence": -1,
+        "IsSealed": 0,
+        "Metadata": null
       }
     ],
     "Metadata": null
   },
   "CharacterExpressions": {
-    "Items": [],
+    "Items": [
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "idle",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "3,0",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "mining",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "6,0",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "field creating",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "9,0",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "chopping",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "12,0",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "chopping f",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "12,4",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "idle f",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "3,4",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "mining f",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "6,4",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      },
+      {
+        "IsAnimationLooping": 1,
+        "IsModel": 0,
+        "ModelAnimationName": null,
+        "Name": "field creating f",
+        "SpriteDuration": 300,
+        "SpriteFrameOffset": "9,4",
+        "SpriteFrames": 3,
+        "SpriteOrientedAroundCenter": 0,
+        "Metadata": null
+      }
+    ],
     "Metadata": null
   },
   "Classes": {
@@ -695,8 +871,8 @@
         },
         "Metadata": null
       },
-      "StartMap": -1,
-      "StartMapPosition": "0,0,0",
+      "StartMap": 0,
+      "StartMapPosition": "7,0,8",
       "StartingMoney": 0,
       "StartingVehicles": [],
       "Metadata": null
@@ -5308,6 +5484,194 @@
           "Metadata": null
         },
         "IsSystemVirtualKey": 1,
+        "Metadata": null
+      },
+      {
+        "Cooldown": 0,
+        "EnterScript": {
+          "Code": null,
+          "Commands": [
+            {
+              "$": "CommentCommand",
+              "Comment": "if tool is equiped",
+              "Metadata": null
+            },
+            {
+              "$": "SetActorPoseCommand",
+              "CharacterModelAnimationIndex": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "3",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "IsReset": 0,
+              "Target": {
+                "Identifier": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "0",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "IsEntity": 0,
+                "IsIdentifiedByUniqueID": 0,
+                "IsPartyMember": 1,
+                "IsSelf": 0,
+                "Metadata": null
+              },
+              "Metadata": null
+            },
+            {
+              "$": "WaitCommand",
+              "Duration": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "1000",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "IsBlockingInput": 0,
+              "Metadata": null
+            },
+            {
+              "$": "SetActorPoseCommand",
+              "CharacterModelAnimationIndex": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "3",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "IsReset": 1,
+              "Target": {
+                "Identifier": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "0",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "IsEntity": 0,
+                "IsIdentifiedByUniqueID": 0,
+                "IsPartyMember": 1,
+                "IsSelf": 0,
+                "Metadata": null
+              },
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ExitScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ID": 0,
+        "IgnoresInputBlocks": 0,
+        "IsRequiringKeyRelease": 0,
+        "Mapping": [
+          {
+            "GlobalVariableIndex": 0,
+            "Key": 1,
+            "SourceType": 1,
+            "StoreAxisChangeInGlobalVariable": 0,
+            "Metadata": null
+          }
+        ],
+        "MutuallyExclusiveCommands": [],
+        "Name": "use tool",
+        "OngoingScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "IsSystemVirtualKey": 0,
+        "Metadata": null
+      },
+      {
+        "Cooldown": 0,
+        "EnterScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ExitScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ID": 1,
+        "IgnoresInputBlocks": 0,
+        "IsRequiringKeyRelease": 0,
+        "Mapping": [],
+        "MutuallyExclusiveCommands": [],
+        "Name": null,
+        "OngoingScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "IsSystemVirtualKey": 0,
+        "Metadata": null
+      },
+      {
+        "Cooldown": 0,
+        "EnterScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ExitScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ID": 2,
+        "IgnoresInputBlocks": 0,
+        "IsRequiringKeyRelease": 0,
+        "Mapping": [],
+        "MutuallyExclusiveCommands": [],
+        "Name": null,
+        "OngoingScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "IsSystemVirtualKey": 0,
         "Metadata": null
       }
     ],

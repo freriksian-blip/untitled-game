@@ -1603,13 +1603,13 @@
       },
       {
         "Data": [
+          2,
           0,
+          3,
           0,
+          3,
           1,
-          0,
-          1,
-          1,
-          0,
+          2,
           1,
           9,
           9,
@@ -1871,13 +1871,13 @@
       },
       {
         "Data": [
+          2,
           0,
+          3,
           0,
+          3,
           1,
-          0,
-          1,
-          1,
-          0,
+          2,
           1,
           9,
           9,
@@ -4116,6 +4116,57 @@
               "Metadata": null
             },
             {
+              "$": "MapTileGetDetailsCommand",
+              "IsCollision": 0,
+              "IsHeight": 0,
+              "IsLayerBased": 1,
+              "IsRegion": 0,
+              "IsShape": 0,
+              "IsTileTag": 1,
+              "Layer": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "f8e16d64-e94b-4752-b5e3-03f47de5df7d",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "Result": {
+                "IsGlobalVariable": true,
+                "IsLocalVariable": false,
+                "IsValue": false,
+                "Value": "",
+                "VariableIndex": 5,
+                "Metadata": null
+              },
+              "LocationStrategy": 0,
+              "X": {
+                "IsGlobalVariable": true,
+                "IsLocalVariable": false,
+                "IsValue": false,
+                "Value": "",
+                "VariableIndex": 1,
+                "Metadata": null
+              },
+              "Y": {
+                "IsGlobalVariable": true,
+                "IsLocalVariable": false,
+                "IsValue": false,
+                "Value": "",
+                "VariableIndex": 2,
+                "Metadata": null
+              },
+              "Z": {
+                "IsGlobalVariable": true,
+                "IsLocalVariable": false,
+                "IsValue": false,
+                "Value": "",
+                "VariableIndex": 3,
+                "Metadata": null
+              },
+              "Metadata": null
+            },
+            {
               "$": "WaitCommand",
               "Duration": {
                 "IsGlobalVariable": false,
@@ -6233,7 +6284,7 @@
     }
   ],
   "MenuID": "00000000-0000-0000-0000-000000000000",
-  "MeshCacheToken": 140688446,
+  "MeshCacheToken": 1279495968,
   "Name": "Grassfields",
   "OngoingScript": {
     "Code": null,

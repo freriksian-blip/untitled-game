@@ -172,7 +172,7 @@
         "StatisticsTable": {
           "Columns": [],
           "GrowthIndex": -1,
-          "MaximumRank": -1,
+          "MaximumRank": 0,
           "RankIndex": -1,
           "Rows": [],
           "StartingRank": 0,
@@ -978,7 +978,7 @@
         },
         "FlatSlots": [
           {
-            "ImageSource": "Tiles\\Grass.png",
+            "ImageSource": "Tiles\\Grass_Till_field.png",
             "IsTerraforming": 0,
             "UnitHeight": 1,
             "UsesDiagonalEdges": 0,

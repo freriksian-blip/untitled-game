@@ -1,55 +1,6 @@
-Starting engine with content at F:\untitled game.
+Starting engine with content at Z:\RPG_Projects\Untitled\untitled-game.
 Restore Party - Include Inactive Members: True; Restore Statistics: True; Restore Status Effects: False
 Restore Party - Restored 1 Member(s)
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Resetting engine...
-Engine reset.
-Restore Party - Include Inactive Members: True; Restore Statistics: True; Restore Status Effects: False
-Restore Party - Restored 1 Member(s)
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
-Set Character Animation - Setting to: chopping
-Wait - Duration (Milliseconds): 1000ms; Block Input: False
-Set Character Animation - Resetting Pose
 Set Character Animation - Setting to: chopping
 Wait - Duration (Milliseconds): 1000ms; Block Input: False
 Set Character Animation - Resetting Pose

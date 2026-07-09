@@ -1,4 +1,4 @@
-{
+﻿{
   "TileDimension": 16,
   "ActionSequences": {
     "Items": [],
@@ -782,7 +782,22 @@
           "WallRigidityData": [],
           "Metadata": null
         },
-        "FlatSlots": [],
+        "FlatSlots": [
+          {
+            "ImageSource": "Tiles\\Grass.png",
+            "IsTerraforming": 0,
+            "UnitHeight": 1,
+            "UsesDiagonalEdges": 0,
+            "BackdropData": [],
+            "Data": [
+              1000
+            ],
+            "LayerData": [],
+            "TopRigidityData": [],
+            "WallRigidityData": [],
+            "Metadata": null
+          }
+        ],
         "Name": "",
         "StructureSlotA": {
           "Height": 2,

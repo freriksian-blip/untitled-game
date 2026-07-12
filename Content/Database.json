@@ -1,4 +1,4 @@
-{
+﻿{
   "TileDimension": 16,
   "ActionSequences": {
     "Items": [],
@@ -1902,7 +1902,7 @@
       },
       "StartMap": 0,
       "StartMapPosition": "7,0,8",
-      "StartingMoney": 0,
+      "StartingMoney": 28,
       "StartingVehicles": [],
       "Metadata": null
     },
@@ -1943,8 +1943,8 @@
       },
       "GraphicsPostProcessors": [],
       "LoadingScreenID": "00000000-0000-0000-0000-000000000000",
-      "MenuUserInterfaceID": "00000000-0000-0000-0000-000000000000",
-      "SkipScene": 1,
+      "MenuUserInterfaceID": "4fe4ee36-15df-4f0d-ae90-69254bb47ef7",
+      "SkipScene": 0,
       "Metadata": null
     },
     "Skills": {
@@ -7211,7 +7211,13 @@
                 "DisabledEffects": [],
                 "ExecuteScript": {
                   "Code": null,
-                  "Commands": [],
+                  "Commands": [
+                    {
+                      "$": "SceneNewGameCommand",
+                      "UseTransition": 1,
+                      "Metadata": null
+                    }
+                  ],
                   "Conditions": [],
                   "Interactions": [],
                   "IsCodeBased": 0,
@@ -7282,7 +7288,30 @@
                 "DisabledEffects": [],
                 "ExecuteScript": {
                   "Code": null,
-                  "Commands": [],
+                  "Commands": [
+                    {
+                      "$": "LoadStateCommand",
+                      "Result": {
+                        "IsGlobalSwitch": true,
+                        "IsLocalSwitch": false,
+                        "IsValue": false,
+                        "Value": false,
+                        "SwitchIndex": 0,
+                        "Metadata": null
+                      },
+                      "StateIndex": {
+                        "IsGlobalVariable": false,
+                        "IsLocalVariable": false,
+                        "IsValue": true,
+                        "Value": "1",
+                        "VariableIndex": 0,
+                        "Metadata": null
+                      },
+                      "StoreResults": 0,
+                      "UseTransition": 1,
+                      "Metadata": null
+                    }
+                  ],
                   "Conditions": [],
                   "Interactions": [],
                   "IsCodeBased": 0,
@@ -7533,7 +7562,36 @@
         },
         "LoadedScript": {
           "Code": null,
-          "Commands": [],
+          "Commands": [
+            {
+              "$": "PushFocusCommand",
+              "AreAllSelected": {
+                "IsGlobalSwitch": false,
+                "IsLocalSwitch": false,
+                "IsValue": true,
+                "Value": false,
+                "SwitchIndex": 0,
+                "Metadata": null
+              },
+              "AreRandomSelected": {
+                "IsGlobalSwitch": false,
+                "IsLocalSwitch": false,
+                "IsValue": true,
+                "Value": false,
+                "SwitchIndex": 0,
+                "Metadata": null
+              },
+              "ID": {
+                "IsGlobalVariable": false,
+                "IsLocalVariable": false,
+                "IsValue": true,
+                "Value": "b3141d92-7164-4926-b221-e285ca85d552",
+                "VariableIndex": 0,
+                "Metadata": null
+              },
+              "Metadata": null
+            }
+          ],
           "Conditions": [],
           "Interactions": [],
           "IsCodeBased": 0,

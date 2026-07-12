@@ -1,4 +1,4 @@
-﻿{
+{
   "TileDimension": 16,
   "ActionSequences": {
     "Items": [],
@@ -1154,7 +1154,195 @@
     "Metadata": null
   },
   "Entities": {
-    "Items": [],
+    "Items": [
+      {
+        "Category": null,
+        "ID": 0,
+        "IsAllDataPersisted": 0,
+        "IsLocalDataPersisted": 0,
+        "Locals": {
+          "Switches": [
+            {
+              "Name": null,
+              "Value": 0,
+              "Metadata": null
+            }
+          ],
+          "Variables": [
+            {
+              "Name": null,
+              "Value": "",
+              "Metadata": null
+            }
+          ]
+        },
+        "Name": "Tilled soil",
+        "Position": "0,0,0",
+        "Scripts": [
+          {
+            "$": "EntityScript",
+            "Annotations": [],
+            "CharacterModel": {
+              "Animation": null,
+              "BackfaceCullingMethod": 0,
+              "HueShift": 0,
+              "IsCycling": 0,
+              "IsModel": 0,
+              "Name": "Tiles\\wip tileset.png",
+              "SpriteBorderThickness": 0,
+              "SpriteDuration": 100,
+              "SpriteFrames": 1,
+              "SpriteLayers": {},
+              "SpriteOrientation": 1,
+              "SpriteOrientedAroundCenter": 1,
+              "SpriteRegion": "0,192,16,16",
+              "UseSpriteLayers": 0,
+              "Scale": "1,1,1",
+              "Translation": "0,0,0"
+            },
+            "ColliderDepth": null,
+            "ColliderDiameter": null,
+            "ColliderHeight": null,
+            "ColliderPoints": [],
+            "ColliderShape": null,
+            "CycleAnimation": 0,
+            "Delay": 0,
+            "Direction": 5,
+            "FacePlayerOnInteraction": 1,
+            "FixDirection": 0,
+            "IgnoresCollision": 1,
+            "IgnoresGravity": 0,
+            "IgnoresObstacles": 0,
+            "IsClipping": 1,
+            "IsDirectionUpdated": 1,
+            "IsPushable": 0,
+            "IsRegisteringIgnoredCollisions": 0,
+            "IsWindEligible": 0,
+            "Light": null,
+            "MovementPath": null,
+            "MovementType": 0,
+            "Name": "Tilled soil",
+            "NeverSleeps": 0,
+            "PreventCollision": 0,
+            "PreventFalling": 0,
+            "RecycleAnimation": 1,
+            "Rotation": "0,0,0",
+            "Speed": 0.9,
+            "SpriteShape": 2,
+            "SuspendMovementOnInteraction": 1,
+            "WindAnchor": "0.5,0",
+            "WindSwayMode": 0,
+            "WindTolerance": 1,
+            "Code": null,
+            "Commands": [
+              {
+                "$": "CommentCommand",
+                "Comment": "Tilled soil",
+                "Metadata": null
+              }
+            ],
+            "Conditions": [],
+            "Interactions": [
+              {
+                "$": "VirtualKeyInteraction",
+                "IsIgnoringCooldown": 1,
+                "IsRegisteringCooldown": 0,
+                "VirtualKey": 0,
+                "Metadata": null
+              }
+            ],
+            "IsCodeBased": 0,
+            "Metadata": null
+          }
+        ],
+        "Tags": {},
+        "UniqueID": "1ad2cbd9-b099-4051-a901-e34d902ae3ab",
+        "Metadata": null
+      },
+      {
+        "Category": null,
+        "ID": 0,
+        "IsAllDataPersisted": 0,
+        "IsLocalDataPersisted": 0,
+        "Locals": {
+          "Switches": [],
+          "Variables": []
+        },
+        "Name": "Seeds in tilled soil",
+        "Position": "0,0,0",
+        "Scripts": [
+          {
+            "$": "EntityScript",
+            "Annotations": [],
+            "CharacterModel": {
+              "Animation": null,
+              "BackfaceCullingMethod": 0,
+              "HueShift": 0,
+              "IsCycling": 0,
+              "IsModel": 0,
+              "Name": "Tiles\\wip tileset.png",
+              "SpriteBorderThickness": 0,
+              "SpriteDuration": 100,
+              "SpriteFrames": 1,
+              "SpriteLayers": {},
+              "SpriteOrientation": 1,
+              "SpriteOrientedAroundCenter": 1,
+              "SpriteRegion": "16,192,16,16",
+              "UseSpriteLayers": 0,
+              "Scale": "1,1,1",
+              "Translation": "0,0,0"
+            },
+            "ColliderDepth": null,
+            "ColliderDiameter": null,
+            "ColliderHeight": null,
+            "ColliderPoints": [],
+            "ColliderShape": null,
+            "CycleAnimation": 0,
+            "Delay": 0,
+            "Direction": 5,
+            "FacePlayerOnInteraction": 1,
+            "FixDirection": 0,
+            "IgnoresCollision": 1,
+            "IgnoresGravity": 0,
+            "IgnoresObstacles": 0,
+            "IsClipping": 1,
+            "IsDirectionUpdated": 1,
+            "IsPushable": 0,
+            "IsRegisteringIgnoredCollisions": 0,
+            "IsWindEligible": 0,
+            "Light": null,
+            "MovementPath": null,
+            "MovementType": 0,
+            "Name": "New Script",
+            "NeverSleeps": 0,
+            "PreventCollision": 0,
+            "PreventFalling": 0,
+            "RecycleAnimation": 1,
+            "Rotation": "0,0,0",
+            "Speed": 1,
+            "SpriteShape": 2,
+            "SuspendMovementOnInteraction": 1,
+            "WindAnchor": "0.5,0",
+            "WindSwayMode": 0,
+            "WindTolerance": 1,
+            "Code": null,
+            "Commands": [],
+            "Conditions": [],
+            "Interactions": [
+              {
+                "$": "PlayerKeyCollisionInteraction",
+                "Metadata": null
+              }
+            ],
+            "IsCodeBased": 0,
+            "Metadata": null
+          }
+        ],
+        "Tags": {},
+        "UniqueID": "1d93212b-1e95-4d1e-840e-6297c6fe034c",
+        "Metadata": null
+      }
+    ],
     "Metadata": null
   },
   "Equipment": {
@@ -1825,6 +2013,118 @@
             "UsesDiagonalEdges": 0,
             "BackdropData": [],
             "Data": [
+              1,
+              25,
+              0,
+              1,
+              0,
+              25,
+              0,
+              1,
+              1,
+              24,
+              0,
+              1,
+              0,
+              24,
+              0,
+              1,
+              5,
+              25,
+              0,
+              3,
+              4,
+              25,
+              0,
+              3,
+              5,
+              24,
+              0,
+              3,
+              4,
+              24,
+              0,
+              3,
+              7,
+              25,
+              0,
+              4,
+              6,
+              25,
+              0,
+              4,
+              7,
+              24,
+              0,
+              4,
+              6,
+              24,
+              0,
+              4,
+              9,
+              25,
+              0,
+              5,
+              8,
+              25,
+              0,
+              5,
+              9,
+              24,
+              0,
+              5,
+              8,
+              24,
+              0,
+              5,
+              3,
+              25,
+              0,
+              2,
+              2,
+              25,
+              0,
+              2,
+              3,
+              24,
+              0,
+              2,
+              2,
+              24,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              10,
+              0,
+              0,
+              0,
+              11,
+              0,
+              0,
+              0,
+              10,
+              1,
+              0,
+              0,
+              11,
+              1,
+              0,
+              0,
               1000
             ],
             "LayerData": [],
@@ -1934,7 +2234,36 @@
       {
         "EnterScript": {
           "Code": null,
-          "Commands": [],
+          "Commands": [
+            {
+              "$": "SwitchCommand",
+              "Random": 0,
+              "Value": 0,
+              "Index": 1,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            },
+            {
+              "$": "SwitchCommand",
+              "Random": 0,
+              "Value": 0,
+              "Index": 2,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            }
+          ],
           "Conditions": [],
           "Interactions": [],
           "IsCodeBased": 0,
@@ -2027,7 +2356,83 @@
         "IdleAnimation": 0,
         "IsSpecialCollisionType": 0,
         "MovementAnimation": 0,
-        "Name": null,
+        "Name": "Tilled soil",
+        "OngoingScript": {
+          "Code": null,
+          "Commands": [],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "SoundEffect": {
+          "IsPreventingMultiple": 0,
+          "Name": null,
+          "Pan": 0,
+          "Pitch": 0,
+          "Volume": 1
+        },
+        "UseIdleAnimation": 0,
+        "UseMovementAnimation": 0,
+        "UseScriptsOnEntities": 0,
+        "UseScriptsOnFollowers": 1,
+        "UseScriptsOnLeader": 1,
+        "UseSoundEffectOnEntities": 0,
+        "UseSoundEffectOnFollowers": 1,
+        "UseSoundEffectOnLeader": 1,
+        "Metadata": null
+      },
+      {
+        "EnterScript": {
+          "Code": null,
+          "Commands": [
+            {
+              "$": "SwitchCommand",
+              "Random": 0,
+              "Value": 1,
+              "Index": 2,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "ExitScript": {
+          "Code": null,
+          "Commands": [
+            {
+              "$": "SwitchCommand",
+              "Random": 0,
+              "Value": 0,
+              "Index": 2,
+              "IndexEnd": null,
+              "IsGlobal": 1,
+              "IsLocal": 0,
+              "IsOperandReference": 0,
+              "IsReference": 0,
+              "OperandGlobalIndex": null,
+              "OperandLocalIndex": null,
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [],
+          "IsCodeBased": 0,
+          "Metadata": null
+        },
+        "IdleAnimation": 0,
+        "IsSpecialCollisionType": 0,
+        "MovementAnimation": 0,
+        "Name": "Sown seeds",
         "OngoingScript": {
           "Code": null,
           "Commands": [],
@@ -2125,7 +2530,7 @@
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "sown seeds",
         "Value": 0,
         "Metadata": null
       },
@@ -4147,7 +4552,7 @@
         "Metadata": null
       },
       {
-        "Name": null,
+        "Name": "tilled_entity",
         "Value": "",
         "Metadata": null
       },
@@ -6291,13 +6696,13 @@
             },
             "HorizontalAlignment": 0,
             "Template": null,
-            "Text": "TileID\r\n\u003Cglobalvar[5]\u003E",
+            "Text": "TileID \u003Cglobalvar[5]\u003E",
             "UseTemplateText": 0,
             "WordWrap": 0,
             "VerticalAlignment": 0,
             "DisabledEffects": [],
             "FocusedEffects": [],
-            "ID": "4e93d2d8-77d7-4afa-8543-7e8a63d26f98",
+            "ID": "1633f518-3a67-443e-a228-7ffeb1284165",
             "IsLinkedToSelectionContext": 0,
             "IsLinkedToUserInterfaceContext": 0,
             "IsRelativelyPositioned": 1,
@@ -7232,6 +7637,181 @@
                 "Metadata": null
               },
               "IsBlockingInput": 0,
+              "Metadata": null
+            },
+            {
+              "$": "ConditionalCommand",
+              "Conditions": [
+                {
+                  "$": "GlobalSwitchCondition",
+                  "ComparisonGlobalSwitchIndex": null,
+                  "ComparisonLocalSwitchIndex": null,
+                  "Index": 1,
+                  "Value": 0,
+                  "Metadata": null
+                }
+              ],
+              "FailureCommands": [
+                {
+                  "$": "ConditionalCommand",
+                  "Conditions": [
+                    {
+                      "$": "GlobalSwitchCondition",
+                      "ComparisonGlobalSwitchIndex": null,
+                      "ComparisonLocalSwitchIndex": null,
+                      "Index": 1,
+                      "Value": 1,
+                      "Metadata": null
+                    }
+                  ],
+                  "FailureCommands": [],
+                  "IsTimeConstrained": 1,
+                  "SuccessCommands": [
+                    {
+                      "$": "SwitchCommand",
+                      "Random": 0,
+                      "Value": 0,
+                      "Index": 1,
+                      "IndexEnd": null,
+                      "IsGlobal": 1,
+                      "IsLocal": 0,
+                      "IsOperandReference": 0,
+                      "IsReference": 0,
+                      "OperandGlobalIndex": null,
+                      "OperandLocalIndex": null,
+                      "Metadata": null
+                    },
+                    {
+                      "$": "EntitySpawnEntityCommand",
+                      "Direction": {
+                        "IsGlobalVariable": false,
+                        "IsLocalVariable": false,
+                        "IsValue": true,
+                        "Value": "5",
+                        "VariableIndex": 0,
+                        "Metadata": null
+                      },
+                      "EntityDefinitionID": {
+                        "IsGlobalVariable": false,
+                        "IsLocalVariable": false,
+                        "IsValue": true,
+                        "Value": "1",
+                        "VariableIndex": 0,
+                        "Metadata": null
+                      },
+                      "IsDirectionSpecified": 0,
+                      "Persist": 0,
+                      "Result": {
+                        "IsGlobalVariable": true,
+                        "IsLocalVariable": false,
+                        "IsValue": false,
+                        "Value": "",
+                        "VariableIndex": 0,
+                        "Metadata": null
+                      },
+                      "StoreID": 0,
+                      "X": {
+                        "IsGlobalVariable": true,
+                        "IsLocalVariable": false,
+                        "IsValue": false,
+                        "Value": "0",
+                        "VariableIndex": 1,
+                        "Metadata": null
+                      },
+                      "Y": {
+                        "IsGlobalVariable": true,
+                        "IsLocalVariable": false,
+                        "IsValue": false,
+                        "Value": "0",
+                        "VariableIndex": 2,
+                        "Metadata": null
+                      },
+                      "Z": {
+                        "IsGlobalVariable": true,
+                        "IsLocalVariable": false,
+                        "IsValue": false,
+                        "Value": "0",
+                        "VariableIndex": 3,
+                        "Metadata": null
+                      },
+                      "Metadata": null
+                    }
+                  ],
+                  "Metadata": null
+                }
+              ],
+              "IsTimeConstrained": 1,
+              "SuccessCommands": [
+                {
+                  "$": "EntitySpawnEntityCommand",
+                  "Direction": {
+                    "IsGlobalVariable": false,
+                    "IsLocalVariable": false,
+                    "IsValue": true,
+                    "Value": "5",
+                    "VariableIndex": 0,
+                    "Metadata": null
+                  },
+                  "EntityDefinitionID": {
+                    "IsGlobalVariable": false,
+                    "IsLocalVariable": false,
+                    "IsValue": true,
+                    "Value": "0",
+                    "VariableIndex": 0,
+                    "Metadata": null
+                  },
+                  "IsDirectionSpecified": 0,
+                  "Persist": 0,
+                  "Result": {
+                    "IsGlobalVariable": true,
+                    "IsLocalVariable": false,
+                    "IsValue": false,
+                    "Value": "",
+                    "VariableIndex": 6,
+                    "Metadata": null
+                  },
+                  "StoreID": 0,
+                  "X": {
+                    "IsGlobalVariable": true,
+                    "IsLocalVariable": false,
+                    "IsValue": false,
+                    "Value": "0",
+                    "VariableIndex": 1,
+                    "Metadata": null
+                  },
+                  "Y": {
+                    "IsGlobalVariable": true,
+                    "IsLocalVariable": false,
+                    "IsValue": false,
+                    "Value": "0",
+                    "VariableIndex": 2,
+                    "Metadata": null
+                  },
+                  "Z": {
+                    "IsGlobalVariable": true,
+                    "IsLocalVariable": false,
+                    "IsValue": false,
+                    "Value": "0",
+                    "VariableIndex": 3,
+                    "Metadata": null
+                  },
+                  "Metadata": null
+                },
+                {
+                  "$": "SwitchCommand",
+                  "Random": 0,
+                  "Value": 1,
+                  "Index": 1,
+                  "IndexEnd": null,
+                  "IsGlobal": 1,
+                  "IsLocal": 0,
+                  "IsOperandReference": 0,
+                  "IsReference": 0,
+                  "OperandGlobalIndex": null,
+                  "OperandLocalIndex": null,
+                  "Metadata": null
+                }
+              ],
               "Metadata": null
             },
             {

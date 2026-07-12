@@ -6879,7 +6879,7 @@
   "CameraRenderDistance": null,
   "CameraResetToDefault": 0,
   "CameraRoll": null,
-  "CameraScale": null,
+  "CameraScale": 2,
   "CameraYaw": null,
   "DirectionalLightColor": "1,1,1,1",
   "DirectionalLightDirection": "0,-1,0",
@@ -9415,7 +9415,7 @@
     }
   ],
   "MenuID": "00000000-0000-0000-0000-000000000000",
-  "MeshCacheToken": 2082321282,
+  "MeshCacheToken": 1444771519,
   "Name": "Grassfields",
   "OngoingScript": {
     "Code": null,

@@ -126,14 +126,14 @@
           "HueShift": 0,
           "IsCycling": 0,
           "IsModel": 0,
-          "Name": "Characters\\early player sprites.png",
+          "Name": "Characters\\female.png",
           "SpriteBorderThickness": 0,
           "SpriteDuration": 100,
           "SpriteFrames": 3,
           "SpriteLayers": {},
           "SpriteOrientation": 4,
           "SpriteOrientedAroundCenter": 1,
-          "SpriteRegion": "0,64,48,64",
+          "SpriteRegion": "0,0,48,64",
           "UseSpriteLayers": 0,
           "Scale": "1,1,1",
           "Translation": "0,0,0"
@@ -1486,6 +1486,14 @@
       "BattleCommandsUserInterfaceID": "00000000-0000-0000-0000-000000000000",
       "BattleLogsUserInterfaceID": "00000000-0000-0000-0000-000000000000",
       "BattleOverlayUserInterfaceID": "00000000-0000-0000-0000-000000000000",
+      "BattleProcessScript": {
+        "Code": null,
+        "Commands": [],
+        "Conditions": [],
+        "Interactions": [],
+        "IsCodeBased": 0,
+        "Metadata": null
+      },
       "BeforeActionScript": {
         "Code": null,
         "Commands": [],
@@ -1515,14 +1523,6 @@
       },
       "CounterBasedBattleTargetFormula": null,
       "CounterBasedBattleTargetMaximumFormula": "100",
-      "CounterUpdateScript": {
-        "Code": null,
-        "Commands": [],
-        "Conditions": [],
-        "Interactions": [],
-        "IsCodeBased": 0,
-        "Metadata": null
-      },
       "DefeatConditions": {
         "Conditions": [],
         "IsAll": 0,
@@ -2469,7 +2469,7 @@
     "Items": [],
     "Metadata": null
   },
-  "Version": "1.0.0.14",
+  "Version": "1.0.0.15",
   "Animations": {
     "Items": [],
     "Metadata": null

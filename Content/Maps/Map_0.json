@@ -7325,6 +7325,248 @@
       "Tags": {},
       "UniqueID": "058567e5-164e-443b-a305-bde11bfa4df4",
       "Metadata": null
+    },
+    {
+      "Category": null,
+      "ID": 2,
+      "IsAllDataPersisted": 0,
+      "IsLocalDataPersisted": 0,
+      "Locals": {
+        "Switches": [],
+        "Variables": []
+      },
+      "Name": null,
+      "Position": "6,0,1",
+      "Scripts": [
+        {
+          "$": "EntityScript",
+          "Annotations": [],
+          "CharacterModel": {
+            "Animation": null,
+            "BackfaceCullingMethod": 0,
+            "HueShift": 0,
+            "IsCycling": 0,
+            "IsModel": 0,
+            "Name": "Characters\\female.png",
+            "SpriteBorderThickness": 0,
+            "SpriteDuration": 100,
+            "SpriteFrames": 3,
+            "SpriteLayers": {},
+            "SpriteOrientation": 4,
+            "SpriteOrientedAroundCenter": 1,
+            "SpriteRegion": "48,0,48,64",
+            "UseSpriteLayers": 0,
+            "Scale": "1,1,1",
+            "Translation": "0,0,0"
+          },
+          "ColliderDepth": null,
+          "ColliderDiameter": null,
+          "ColliderHeight": null,
+          "ColliderPoints": [],
+          "ColliderShape": null,
+          "CycleAnimation": 0,
+          "Delay": 0,
+          "Direction": 5,
+          "FacePlayerOnInteraction": 1,
+          "FixDirection": 0,
+          "IgnoresCollision": 0,
+          "IgnoresGravity": 0,
+          "IgnoresObstacles": 0,
+          "IsClipping": 0,
+          "IsDirectionUpdated": 1,
+          "IsPushable": 0,
+          "IsRegisteringIgnoredCollisions": 0,
+          "IsWindEligible": 0,
+          "Light": null,
+          "MovementPath": null,
+          "MovementType": 0,
+          "Name": "New Script",
+          "NeverSleeps": 0,
+          "PreventCollision": 0,
+          "PreventFalling": 0,
+          "RecycleAnimation": 1,
+          "Rotation": "0,0,0",
+          "Speed": 1,
+          "SpriteShape": 0,
+          "SuspendMovementOnInteraction": 1,
+          "WindAnchor": "0.5,0",
+          "WindSwayMode": 0,
+          "WindTolerance": 1,
+          "Code": null,
+          "Commands": [
+            {
+              "$": "EntityChangeCharacterModelCommand",
+              "CharacterModel": {
+                "Animation": null,
+                "BackfaceCullingMethod": 0,
+                "HueShift": 0,
+                "IsCycling": 0,
+                "IsModel": 0,
+                "Name": "Characters\\female.png",
+                "SpriteBorderThickness": 0,
+                "SpriteDuration": 100,
+                "SpriteFrames": 3,
+                "SpriteLayers": {},
+                "SpriteOrientation": 4,
+                "SpriteOrientedAroundCenter": 1,
+                "SpriteRegion": "48,0,48,64",
+                "UseSpriteLayers": 0,
+                "Scale": "1,1,1",
+                "Translation": "0,0,0"
+              },
+              "Target": {
+                "Identifier": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "0",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "IsEntity": 0,
+                "IsIdentifiedByUniqueID": 0,
+                "IsPartyMember": 1,
+                "IsSelf": 0,
+                "Metadata": null
+              },
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [
+            {
+              "$": "PlayerKeyCollisionInteraction",
+              "Metadata": null
+            }
+          ],
+          "IsCodeBased": 0,
+          "Metadata": null
+        }
+      ],
+      "Tags": {},
+      "UniqueID": "475debef-b4b0-4706-80f4-86ae86c725c8",
+      "Metadata": null
+    },
+    {
+      "Category": null,
+      "ID": 3,
+      "IsAllDataPersisted": 0,
+      "IsLocalDataPersisted": 0,
+      "Locals": {
+        "Switches": [],
+        "Variables": []
+      },
+      "Name": null,
+      "Position": "5,0,1",
+      "Scripts": [
+        {
+          "$": "EntityScript",
+          "Annotations": [],
+          "CharacterModel": {
+            "Animation": null,
+            "BackfaceCullingMethod": 0,
+            "HueShift": 0,
+            "IsCycling": 0,
+            "IsModel": 0,
+            "Name": "Characters\\early player sprites.png",
+            "SpriteBorderThickness": 0,
+            "SpriteDuration": 100,
+            "SpriteFrames": 3,
+            "SpriteLayers": {},
+            "SpriteOrientation": 4,
+            "SpriteOrientedAroundCenter": 1,
+            "SpriteRegion": "48,0,48,64",
+            "UseSpriteLayers": 0,
+            "Scale": "1,1,1",
+            "Translation": "0,0,0"
+          },
+          "ColliderDepth": null,
+          "ColliderDiameter": null,
+          "ColliderHeight": null,
+          "ColliderPoints": [],
+          "ColliderShape": null,
+          "CycleAnimation": 0,
+          "Delay": 0,
+          "Direction": 5,
+          "FacePlayerOnInteraction": 1,
+          "FixDirection": 0,
+          "IgnoresCollision": 0,
+          "IgnoresGravity": 0,
+          "IgnoresObstacles": 0,
+          "IsClipping": 0,
+          "IsDirectionUpdated": 1,
+          "IsPushable": 0,
+          "IsRegisteringIgnoredCollisions": 0,
+          "IsWindEligible": 0,
+          "Light": null,
+          "MovementPath": null,
+          "MovementType": 0,
+          "Name": "New Script",
+          "NeverSleeps": 0,
+          "PreventCollision": 0,
+          "PreventFalling": 0,
+          "RecycleAnimation": 1,
+          "Rotation": "0,0,0",
+          "Speed": 1,
+          "SpriteShape": 0,
+          "SuspendMovementOnInteraction": 1,
+          "WindAnchor": "0.5,0",
+          "WindSwayMode": 0,
+          "WindTolerance": 1,
+          "Code": null,
+          "Commands": [
+            {
+              "$": "EntityChangeCharacterModelCommand",
+              "CharacterModel": {
+                "Animation": null,
+                "BackfaceCullingMethod": 0,
+                "HueShift": 0,
+                "IsCycling": 0,
+                "IsModel": 0,
+                "Name": "Characters\\early player sprites.png",
+                "SpriteBorderThickness": 0,
+                "SpriteDuration": 100,
+                "SpriteFrames": 3,
+                "SpriteLayers": {},
+                "SpriteOrientation": 4,
+                "SpriteOrientedAroundCenter": 1,
+                "SpriteRegion": "48,0,48,64",
+                "UseSpriteLayers": 0,
+                "Scale": "1,1,1",
+                "Translation": "0,0,0"
+              },
+              "Target": {
+                "Identifier": {
+                  "IsGlobalVariable": false,
+                  "IsLocalVariable": false,
+                  "IsValue": true,
+                  "Value": "0",
+                  "VariableIndex": 0,
+                  "Metadata": null
+                },
+                "IsEntity": 0,
+                "IsIdentifiedByUniqueID": 0,
+                "IsPartyMember": 1,
+                "IsSelf": 0,
+                "Metadata": null
+              },
+              "Metadata": null
+            }
+          ],
+          "Conditions": [],
+          "Interactions": [
+            {
+              "$": "PlayerKeyCollisionInteraction",
+              "Metadata": null
+            }
+          ],
+          "IsCodeBased": 0,
+          "Metadata": null
+        }
+      ],
+      "Tags": {},
+      "UniqueID": "b97822cd-9582-411a-b816-f9ef8f725616",
+      "Metadata": null
     }
   ],
   "EntityReferences": [],
@@ -9415,7 +9657,7 @@
     }
   ],
   "MenuID": "00000000-0000-0000-0000-000000000000",
-  "MeshCacheToken": 1444771519,
+  "MeshCacheToken": 996593930,
   "Name": "Grassfields",
   "OngoingScript": {
     "Code": null,

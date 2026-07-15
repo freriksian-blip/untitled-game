@@ -3,8 +3,24 @@
     {
       "BattleFocalPoints": [],
       "ID": 0,
-      "IsExpanded": 0,
+      "IsExpanded": 1,
       "Name": "Grassfields",
+      "Children": [],
+      "Metadata": null
+    },
+    {
+      "BattleFocalPoints": [],
+      "ID": 2,
+      "IsExpanded": 0,
+      "Name": "forest",
+      "Children": [],
+      "Metadata": null
+    },
+    {
+      "BattleFocalPoints": [],
+      "ID": 1,
+      "IsExpanded": 1,
+      "Name": "desert",
       "Children": [],
       "Metadata": null
     }
@@ -15,10 +31,10 @@
   "Name": null,
   "Path": "F:\\untitled game",
   "Settings": {
-    "MapEditorZoom": "4.8524117",
+    "MapEditorZoom": "3.1",
     "TileFilterMode": "Flat",
-    "LastOpenedMap": "0",
-    "TileSelectorZoom": "0.25",
+    "LastOpenedMap": "2",
+    "TileSelectorZoom": "2.25",
     "CharacterModelPreset1": "{\r\n  \u0022Border\u0022: 0,\r\n  \u0022Duration\u0022: 100,\r\n  \u0022Frames\u0022: 1,\r\n  \u0022Height\u0022: 16,\r\n  \u0022Orientation\u0022: 1,\r\n  \u0022Width\u0022: 16\r\n}",
     "FontPreview.FontSize1": "48",
     "FontPreview.FontSize2": "41",
